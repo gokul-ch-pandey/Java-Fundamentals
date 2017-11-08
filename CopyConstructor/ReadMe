@@ -1,0 +1,16 @@
+Question. What is copy constructor.
+Answer. Copy constructor is a constructor of class which takes same class object as input parameter.
+
+Question. What is object cloning and how this is achieved?
+Answer. Object cloning is making a class capable of cloning it's object. To make a class clonable you need to implement Clonable interface and public method which calls the super.clone().
+
+Question. What is the difference between copy constructor and object cloning?
+Answer. with copy constructor we can restrict what to copy and what not to which is not possible in cloning. 
+
+Question. What is native keyword in java?
+Answer. native keyword marks a method that it will be implemented in other language than java. 
+		Native methods were used in the past to write performance critical solutions. 
+		Native method work with JNI(Java Network Interface).
+		Required when you need to call system/ hardware resources that are only accessible from other languages like c.
+		It uses a native method that does a byte-by-byte copying of the original object, adjusting for the new heap location.
+		

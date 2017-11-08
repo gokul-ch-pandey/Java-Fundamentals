@@ -1,0 +1,10 @@
+Question. What is constructor chaining?
+Answer. calling a constructor from another constructor is called constructor chaining. 
+
+Question. How many types of constructor chaining is there?
+Answer. There are tow types of Constructor chaining.
+	1. With in the class. With the use of this keyword
+	2. Within Child parent class. With the use of super keyword.
+	
+Question. What is the use of Constructor chaining?
+Answer. 
